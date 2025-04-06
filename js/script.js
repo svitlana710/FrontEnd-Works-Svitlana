@@ -12,30 +12,6 @@ class Student {
     this.isValid = true;
   }
 
-  get studentName() {
-    return this.name;
-  }
-
-  set studentName(newName) {
-    this.name = newName;
-  }
-
-  get studentCity() {
-    return this.city;
-  }
-
-  set studentCity(newCity) {
-    this.city = newCity;
-  }
-
-  get studentCourse() {
-    return this.course;
-  }
-
-  set studentCourse(newCourse) {
-    this.course = newCourse;
-  }
-
   get checkForm() {
     return this.isValid;
   }
