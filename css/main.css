@@ -1,0 +1,58 @@
+body {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eceff0), to(#434546));
+  background: linear-gradient(#eceff0, #434546);
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3c4041;
+}
+
+.header {
+  padding: 20px;
+  background: #7ea4a5;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 30px;
+}
+
+.react {
+  padding: 30px 10px;
+  margin-bottom: 44px;
+  border: 1px solid #000;
+}
+.react__title {
+  font-size: 1.4em;
+  font-weight: 400;
+  position: relative;
+}
+.react__title::after {
+  content: "";
+  position: absolute;
+  left: 26px;
+  bottom: -10px;
+  display: block;
+  width: 70%;
+  height: 2px;
+  background: #33748a;
+}
+
+.footer {
+  padding: 40px 20px;
+  background: #123232;
+  color: #64aab1;
+}/*# sourceMappingURL=main.css.map */
